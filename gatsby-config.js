@@ -5,6 +5,7 @@ module.exports = {
     title: 'Amir Panahi',
     description:
       'Amir Panahi is a software engineer who specializes in building exceptional digital experiences.',
+    siteUrl: 'https://amirpanahi.info',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

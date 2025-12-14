@@ -67,8 +67,13 @@ const Hero = () => {
       <p>I’m a software engineer specializing in building exceptional digital experiences.</p>
     </>
   );
+  const five = (
+    <a className="email-link" href="/resume.pdf" target="_blank" rel="noreferrer">
+      Get my resume
+    </a>
+  );
 
-  const items = [one, two, three, four];
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>

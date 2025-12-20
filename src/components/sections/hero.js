@@ -64,12 +64,15 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the web and mobile.</h3>;
   const four = (
     <>
-      <p>I’m a software engineer specializing in building exceptional digital experiences.</p>
+      <p>
+        I'm a software engineer specializing in building exceptional digital experiences. Currently,
+        I'm focused on building high-performance web and mobile applications .
+      </p>
     </>
   );
   const five = (
     <a className="email-link" href="/resume.pdf" target="_blank" rel="noreferrer">
-      Resume
+      Check out my resume!
     </a>
   );
 

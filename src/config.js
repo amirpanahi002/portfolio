@@ -10,6 +10,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/amirhossein-panahi',
     },
+    {
+      name: 'Telegram',
+      url: 'https://t.me/amirpanahi002',
+    },
   ],
 
   navLinks: [

@@ -2,10 +2,10 @@ module.exports = {
   email: 'amirhossein_panahi@icloud.com',
 
   socialMedia: [
-    {
-      name: 'GitHub',
-      url: 'https://github.com/amirpanahi002',
-    },
+    // {
+    //   name: 'GitHub',
+    //   url: 'https://github.com/amirpanahi002',
+    // },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/amirhossein-panahi',

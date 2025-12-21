@@ -1,7 +1,7 @@
 ---
 date: '2023-02-01'
 title: 'Senior Front-end Developer'
-company: 'Kian Financial Group'
+company: 'Kian'
 location: 'Tehran, Iran'
 range: 'Feb, 2023 – Present'
 url: 'https://kiandigital.com/app'

@@ -29,6 +29,7 @@ const StyledTabList = styled.div`
   z-index: 3;
   width: max-content;
   padding: 0;
+  padding-right: 20px;
   margin: 0;
   list-style: none;
 
@@ -249,7 +250,7 @@ const Jobs = () => {
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
-            jobsData.map(({ node }, i) => {
+            [...jobsData].map(({ node }, i) => {
               const { company } = node.frontmatter;
               return (
                 <StyledTabButton

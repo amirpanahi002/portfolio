@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -70,13 +71,13 @@ const Hero = () => {
       </p>
     </>
   );
-  // const five = (
-  //   <a className="email-link" href="/resume.pdf" target="_blank" rel="noreferrer">
-  //     Check out my resume!
-  //   </a>
-  // );
+  const five = (
+    <a className="email-link" href={`mailto:${email}`} target="_blank" rel="noreferrer">
+      Say Hello!
+    </a>
+  );
 
-  const items = [one, two, three, four];
+  const items = [one, two, three, four, five];
 
   return (
     <StyledHeroSection>

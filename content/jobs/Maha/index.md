@@ -4,7 +4,7 @@ title: 'Front-end Developer'
 company: 'Maha'
 location: 'Tehran, Iran'
 range: 'Feb, 2022 - Feb, 2023'
-url: 'https://www.linkedin.com/company/mahaa-startup/'
+url: 'https://mofidapp.com/fa'
 ---
 
 - Established comprehensive testing infrastructure using React Testing Library and Cypress, achieving 65% code coverage and reducing production bugs by 50%

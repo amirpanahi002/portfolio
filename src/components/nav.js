@@ -208,7 +208,7 @@ const Nav = ({ isHome }) => {
   const ResumeLink = (
     <a
       className="resume-button"
-      href="/Amir-Panahi-Front-v5.pdf"
+      href="/Amir-Panahi-Front-CV.pdf"
       target="_blank"
       rel="noopener noreferrer">
       Resume
